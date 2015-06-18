@@ -45,7 +45,7 @@ body {
 }
  
 .sub-menu {
-    width:160%;
+    width:300%;
     padding:5px 0px;
     position:absolute;
     top:100%;
@@ -502,14 +502,15 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  color: #fff;
+  background-color: black;
 }
 
 header h1 {
-  width: 800px;
+  width: 960px;
   margin-top: 0;
   margin-bottom: 0.2em;
+  margin-left: -35px;
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
@@ -518,30 +519,30 @@ header h1 {
 }
 
 header h2 {
-  width: 540px;
+  width: 960px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: -35px;
   font-size: 26px;
   font-weight: normal;
   line-height: 1.3;
-  color: #9ddcff;
+  color: #2c7bb6;
   letter-spacing: 0;
 }
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 960px;
   margin: 0 auto;
 }
 
 #content-wrapper {
-  padding-top: 30px;
   border-top: solid 1px #fff;
 }
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 640px;
 }
 
 #main-content img {
@@ -550,8 +551,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 200px;
-  min-height: 504px;
+  width: 300px;
   padding-left: 20px;
   font-size: 12px;
   line-height: 1.3;
@@ -568,18 +568,19 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
+  width: 260px;
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 16px;
   line-height: 1.2;
   color: #fff;
+  margin-top: 25px;
 }
 a.button small {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
 }
 header a.button {
   position: absolute;
@@ -589,10 +590,10 @@ header a.button {
 }
 aside a.button {
   display: block;
-  width: 138px;
+  width: 260px;
   padding-left: 64px;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 18px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
 }
 
@@ -676,14 +677,14 @@ form {
 #main-content h1:before {
   padding-right: 0.3em;
   margin-left: -0.9em;
-  color: #9ddcff;
+  color: #2c7bb6;
   content: "/";
 }
 
 #main-content h2 {
   margin-bottom: 8px;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
@@ -692,7 +693,7 @@ form {
   padding-right: 0.3em;
   margin-left: -1.5em;
   content: "//";
-  color: #9ddcff;
+  color: #2c7bb6;
 }
 
 #main-content h3 {
@@ -709,7 +710,7 @@ form {
   padding-right: 0.3em;
   margin-left: -2em;
   content: "///";
-  color: #9ddcff;
+  color: #2c7bb6;
 }
 
 #main-content h4 {
@@ -725,7 +726,7 @@ h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
   content: "////";
-  color: #9ddcff;
+  color: #2c7bb6;
 }
 
 #main-content h5 {
@@ -739,7 +740,7 @@ h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
   content: "/////";
-  color: #9ddcff;
+  color: #2c7bb6;
 }
 
 #main-content h6 {
@@ -753,7 +754,7 @@ h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
   content: "//////";
-  color: #9ddcff;
+  color: #2c7bb6;
 }
 
 p {
@@ -887,7 +888,7 @@ footer a:hover {
     line-height: 1;
     color: #2879d0;
     text-align: center;
-    background-color: #9ddcff;
+    background-color: #2c7bb6;
     background-image: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
