@@ -904,11 +904,9 @@ iframe {
     position: relative;
   }
   iframe {
-  width: 1px;
-  min-width: 100%;
-  *width: 100%;
-  height: 250px;
-}
+  width: 267px;
+  height: 200px;
+  }
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
