@@ -596,7 +596,7 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 
-aside a.button {
+aside a.button { 
   display: block;
   width: 260px;
   padding-left: 10px;
