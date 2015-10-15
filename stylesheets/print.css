@@ -6,7 +6,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -18,11 +18,6 @@ time, mark, audio, video {
   vertical-align: baseline;
   border: 0;
 }
-
-table {
-  font-size: 80%;
-}
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -113,7 +108,7 @@ ul, ol, dl {
 /* COMMON STYLES */
 
 table {
-  width: 80%;
+  width: 100%;
   border: 1px solid #ebebeb;
 }
 
