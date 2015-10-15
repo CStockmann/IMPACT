@@ -650,7 +650,6 @@ form {
 
 #main-content h1:before {
   color: #2c7bb6;
-  content: "\2022";
 }
 
 #main-content h2 {
@@ -683,7 +682,6 @@ form {
 
 #main-content h3:before {
   padding-right: 0.3em;
-  content: "\2022";
   color: #2c7bb6;
 }
 
@@ -699,7 +697,6 @@ form {
 h4:before {
   padding-right: 0.3em;
   margin-left: -2.8em;
-  content: "\2022";
   color: #2c7bb6;
 }
 
@@ -713,7 +710,6 @@ h4:before {
 h5:before {
   padding-right: 0.3em;
   margin-left: -3.2em;
-  content: "\2022";
   color: #2c7bb6;
 }
 
@@ -727,7 +723,6 @@ h5:before {
 h6:before {
   padding-right: 0.3em;
   margin-left: -3.7em;
-  content: "\2022";
   color: #2c7bb6;
 }
 
@@ -847,41 +842,47 @@ footer a:hover {
   header h2 {
     font-size: 24px;
   }
+  #main-content {
+    display: block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
   header a.button {
     position: relative;
     display: inline-block;
     width: auto;
     height: auto;
-    padding: 5px 10px;
-    margin-top: 15px;
     font-size: 13px;
     line-height: 1;
     color: #2879d0;
     text-align: center;
     background-color: #2c7bb6;
     background-image: none;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
   }
   header a.button small {
     display: inline;
     font-size: 13px;
   }
-  #main-content,
   aside#sidebar {
-    float: none;
+    display: inline;
+    float: left;
     width: 100% ! important;
+    position: relative;
   }
   aside#sidebar {
-    min-height: 0;
-    padding: 20px 0;
-    margin-top: 20px;
+    display: inline;
+    float: left;
+    width: 100% ! important;
+    position: relative;
     background-image: none;
     border-top: solid 1px #ddd;
   }
   aside#sidebar a.button {
-    display: none;
+    display: inline;
+    float: left;
+    width: 100% ! important;
+    position: relative;
   }
   #main-content h1:before,
   #main-content h2:before,
