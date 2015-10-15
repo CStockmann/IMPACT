@@ -788,6 +788,13 @@ footer a:hover {
   content: '.';
 }
 
+iframe {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  height: 526px;
+}
+
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
@@ -896,6 +903,12 @@ footer a:hover {
     line-height: 1.3;
     position: relative;
   }
+  iframe {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  height: 250px;
+}
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
